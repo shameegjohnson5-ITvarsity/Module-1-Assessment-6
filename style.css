@@ -1,0 +1,258 @@
+
+body{
+   background-color: powderblue;
+    padding: none;
+    
+}
+
+.container img{
+    text-align: center;
+    width: 40%;
+    height: 850px;
+    margin-left: 100px;
+    box-shadow: 5px 5px 10px black;
+    margin-top: 50px;
+    border: 2px solid black;
+    margin: 20px auto;
+}
+
+#gallery{
+    display: block;
+    justify-content: center;
+    align-content: center;
+    margin-top:100px;
+    margin-left: 320px;
+    margin-bottom: 100px;
+    }
+
+.navbar a:hover{
+    color: skyblue;
+}
+
+.navbar ul{
+    list-style:none;
+    background-color: crimson;
+    padding: 0;
+    margin:0;
+}
+
+#heart {
+     font-family: sans-serif;
+    color: white;
+    background-color:deeppink;
+    width: 60%;
+    height: 20px;
+    text-align: center;
+    padding-bottom: 15px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black;
+    margin-top: 15px;
+    margin-left: 60px;
+}
+
+.navbar li{
+    display: inline-block;
+}
+
+.navbar a{
+    text-decoration: none;
+    color:wheat;
+    width:100px;
+    display: block;
+    padding: 15px 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: arial;
+    font-size: 20px;
+}
+
+h1{
+    align-content: center;
+    text-align: center;
+    background: white;
+}
+
+h2{
+    font-size: 50px;
+    font-family: sans-serif;
+    
+}
+
+h3{
+    margin-left: 50px;
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-top: 50px;
+}
+
+h4{
+    margin-left: 50px;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 50px;
+}
+
+h5{
+    font-size: 45px;
+    color: red;
+    text-shadow: 5px 5px 10px black;
+    font-family: cursive;
+    text-align: center;
+    padding-top: 100px;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-image: url(images/banners-png-26.png);
+    background-position: center;
+    background-size: cover;
+    height: 180px;
+}
+
+
+#rex img{
+    width: 600px;
+    height: 700px;
+    display: block;
+    margin-left: 240px;
+    margin-top: 100px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black;
+}
+
+#dino img{
+    margin-left: 5px;
+    width:80px;
+    height:80px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+#dino{
+    display:flex;
+    margin-top: 10px;
+    margin-left: 320px;
+    margin-bottom: 120px;
+    
+}
+
+#details{
+    width: 50%;
+    height:500px;
+    margin-right: 500px;
+    margin-top: 200px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black;
+    font-family: sans-serif;
+}
+
+#details li{
+    padding-top: 10px;
+    list-style: none;
+    font-weight: 800; 
+}
+
+ p{
+     width:50%;
+     margin-left: 300PX;
+     margin-top: 40px;
+}
+#product-details{
+    display: flex;
+    justify-content: space-evenly;  
+}
+
+#buy-button{
+    font-family: sans-serif;
+    color: white;
+    background-color:seagreen;
+    width: 60%;
+    height: 20px;
+    text-align: center;
+    padding-bottom: 15px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+#buy-button a{
+    text-decoration: none;
+    color: white;
+}
+
+#buy-button a:hover{
+    color: aqua;
+}
+
+#heart{
+     font-family: sans-serif;
+    color: white;
+    background-color:deeppink;
+    width: 60%;
+    height: 20px;
+    text-align: center;
+    padding-bottom: 15px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black;
+    margin-top: 15px;
+    margin-left: 60px;
+}
+
+#price{
+    font-size: 40px;
+    margin-left: 5px;
+}
+
+#amount-left{
+    color:red;
+    margin-left: 5px;
+}
+
+#stock{
+    display: flex;
+     margin-left: 5px;
+}
+
+#details img{
+    mix-blend-mode: multiply;
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+#description {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: sans-serif;
+    font-size: 25px;
+    width: 80%
+}
+
+#info-table{
+    border-collapse: collapse;
+    border-color: black;
+    width:30%;
+    margin-left: 50px;
+    margin-bottom: 80px;
+    font-family: sans-serif;
+}
+
+td:nth-child(1){
+    background-color: darkgray;
+}
+
+#about{
+    font-family: sans-serif;
+    margin-left: 200px;
+    font-size: 30px;
+    width: 2000px;
+    margin-top: 150px;
+}
+
+#contact{
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 235px;
+    font-size: 30px;
+}
